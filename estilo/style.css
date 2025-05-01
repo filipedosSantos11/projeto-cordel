@@ -12,7 +12,7 @@
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', sans-serif;
-    --fonte3: "Sriracha", cursive;
+    --fonte3: 'Sriracha', cursive;
 }
 
 
@@ -56,12 +56,13 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
-    font-weight: bold;
+    font-size: 4vw;
+    font-weight: 400;
 }
 
 section > p {
     padding-bottom: 2em;
+    font-family: var(--fonte3);
 }
 
 section.normal {
